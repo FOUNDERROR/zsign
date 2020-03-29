@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DB3872969BFCFC135CD001 /* Pods_SN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1AF60CB98ED34FDFA757AD /* Pods_SN.framework */; };
+		FABFC07D2358CD91008D9BC5 /* zsign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABFC0692358CD90008D9BC5 /* zsign.cpp */; };
+		FABFC07E2358CD91008D9BC5 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABFC06D2358CD90008D9BC5 /* common.cpp */; };
+		FABFC07F2358CD91008D9BC5 /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABFC06F2358CD90008D9BC5 /* base64.cpp */; };
+		FABFC0802358CD91008D9BC5 /* json.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABFC0732358CD90008D9BC5 /* json.cpp */; };
+		FABFC0812358CD91008D9BC5 /* bundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABFC0742358CD90008D9BC5 /* bundle.cpp */; };
+		FABFC0822358CD91008D9BC5 /* archo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABFC0752358CD90008D9BC5 /* archo.cpp */; };
+		FABFC0832358CD91008D9BC5 /* macho.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABFC0782358CD90008D9BC5 /* macho.cpp */; };
+		FABFC0842358CD91008D9BC5 /* openssl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABFC07A2358CD90008D9BC5 /* openssl.cpp */; };
+		FABFC0852358CD91008D9BC5 /* signing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABFC07B2358CD91008D9BC5 /* signing.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FABFC05D2358CD13008D9BC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B1AF60CB98ED34FDFA757AD /* Pods_SN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		770E5D720BEF99C54E371E74 /* Pods-SN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SN.release.xcconfig"; path = "Target Support Files/Pods-SN/Pods-SN.release.xcconfig"; sourceTree = "<group>"; };
+		FA8AF4FAC4CEEF232D3CC518 /* Pods-SN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SN.debug.xcconfig"; path = "Target Support Files/Pods-SN/Pods-SN.debug.xcconfig"; sourceTree = "<group>"; };
+		FABFC05F2358CD13008D9BC5 /* zsign */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zsign; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABFC0692358CD90008D9BC5 /* zsign.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zsign.cpp; sourceTree = SOURCE_ROOT; };
+		FABFC06A2358CD90008D9BC5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		FABFC06B2358CD90008D9BC5 /* openssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openssl.h; sourceTree = SOURCE_ROOT; };
+		FABFC06D2358CD90008D9BC5 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
+		FABFC06E2358CD90008D9BC5 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		FABFC06F2358CD90008D9BC5 /* base64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = base64.cpp; sourceTree = "<group>"; };
+		FABFC0702358CD90008D9BC5 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		FABFC0712358CD90008D9BC5 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		FABFC0722358CD90008D9BC5 /* mach-o.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mach-o.h"; sourceTree = "<group>"; };
+		FABFC0732358CD90008D9BC5 /* json.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json.cpp; sourceTree = "<group>"; };
+		FABFC0742358CD90008D9BC5 /* bundle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bundle.cpp; sourceTree = SOURCE_ROOT; };
+		FABFC0752358CD90008D9BC5 /* archo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = archo.cpp; sourceTree = SOURCE_ROOT; };
+		FABFC0762358CD90008D9BC5 /* bundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bundle.h; sourceTree = SOURCE_ROOT; };
+		FABFC0772358CD90008D9BC5 /* signing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signing.h; sourceTree = SOURCE_ROOT; };
+		FABFC0782358CD90008D9BC5 /* macho.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = macho.cpp; sourceTree = SOURCE_ROOT; };
+		FABFC0792358CD90008D9BC5 /* macho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macho.h; sourceTree = SOURCE_ROOT; };
+		FABFC07A2358CD90008D9BC5 /* openssl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = openssl.cpp; sourceTree = SOURCE_ROOT; };
+		FABFC07B2358CD91008D9BC5 /* signing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = signing.cpp; sourceTree = SOURCE_ROOT; };
+		FABFC07C2358CD91008D9BC5 /* archo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = archo.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FABFC05C2358CD13008D9BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DB3872969BFCFC135CD001 /* Pods_SN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9085499BED767844B761562D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B1AF60CB98ED34FDFA757AD /* Pods_SN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE1B9FD2860DE7597B8099B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AF4FAC4CEEF232D3CC518 /* Pods-SN.debug.xcconfig */,
+				770E5D720BEF99C54E371E74 /* Pods-SN.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FABFC0562358CD13008D9BC5 = {
+			isa = PBXGroup;
+			children = (
+				FABFC0612358CD13008D9BC5 /* zsign */,
+				FABFC0602358CD13008D9BC5 /* Products */,
+				AE1B9FD2860DE7597B8099B8 /* Pods */,
+				9085499BED767844B761562D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FABFC0602358CD13008D9BC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FABFC05F2358CD13008D9BC5 /* zsign */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABFC0612358CD13008D9BC5 /* zsign */ = {
+			isa = PBXGroup;
+			children = (
+				FABFC0752358CD90008D9BC5 /* archo.cpp */,
+				FABFC07C2358CD91008D9BC5 /* archo.h */,
+				FABFC0742358CD90008D9BC5 /* bundle.cpp */,
+				FABFC0762358CD90008D9BC5 /* bundle.h */,
+				FABFC06C2358CD90008D9BC5 /* common */,
+				FABFC0782358CD90008D9BC5 /* macho.cpp */,
+				FABFC0792358CD90008D9BC5 /* macho.h */,
+				FABFC07A2358CD90008D9BC5 /* openssl.cpp */,
+				FABFC06B2358CD90008D9BC5 /* openssl.h */,
+				FABFC06A2358CD90008D9BC5 /* README.md */,
+				FABFC07B2358CD91008D9BC5 /* signing.cpp */,
+				FABFC0772358CD90008D9BC5 /* signing.h */,
+				FABFC0692358CD90008D9BC5 /* zsign.cpp */,
+			);
+			path = zsign;
+			sourceTree = "<group>";
+		};
+		FABFC06C2358CD90008D9BC5 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				FABFC06D2358CD90008D9BC5 /* common.cpp */,
+				FABFC06E2358CD90008D9BC5 /* base64.h */,
+				FABFC06F2358CD90008D9BC5 /* base64.cpp */,
+				FABFC0702358CD90008D9BC5 /* common.h */,
+				FABFC0712358CD90008D9BC5 /* json.h */,
+				FABFC0722358CD90008D9BC5 /* mach-o.h */,
+				FABFC0732358CD90008D9BC5 /* json.cpp */,
+			);
+			path = common;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FABFC05E2358CD13008D9BC5 /* zsign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABFC0662358CD13008D9BC5 /* Build configuration list for PBXNativeTarget "zsign" */;
+			buildPhases = (
+				4AD9C433A0F5F7AC5CC4EBAE /* [CP] Check Pods Manifest.lock */,
+				FABFC05B2358CD13008D9BC5 /* Sources */,
+				FABFC05C2358CD13008D9BC5 /* Frameworks */,
+				FABFC05D2358CD13008D9BC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zsign;
+			productName = SN;
+			productReference = FABFC05F2358CD13008D9BC5 /* zsign */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABFC0572358CD13008D9BC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zander;
+				TargetAttributes = {
+					FABFC05E2358CD13008D9BC5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FABFC05A2358CD13008D9BC5 /* Build configuration list for PBXProject "zsign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FABFC0562358CD13008D9BC5;
+			productRefGroup = FABFC0602358CD13008D9BC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABFC05E2358CD13008D9BC5 /* zsign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AD9C433A0F5F7AC5CC4EBAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABFC05B2358CD13008D9BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABFC0842358CD91008D9BC5 /* openssl.cpp in Sources */,
+				FABFC0822358CD91008D9BC5 /* archo.cpp in Sources */,
+				FABFC07F2358CD91008D9BC5 /* base64.cpp in Sources */,
+				FABFC0832358CD91008D9BC5 /* macho.cpp in Sources */,
+				FABFC0812358CD91008D9BC5 /* bundle.cpp in Sources */,
+				FABFC07E2358CD91008D9BC5 /* common.cpp in Sources */,
+				FABFC0852358CD91008D9BC5 /* signing.cpp in Sources */,
+				FABFC0802358CD91008D9BC5 /* json.cpp in Sources */,
+				FABFC07D2358CD91008D9BC5 /* zsign.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FABFC0642358CD13008D9BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FABFC0652358CD13008D9BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FABFC0672358CD13008D9BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8AF4FAC4CEEF232D3CC518 /* Pods-SN.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFF7D2S454;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		FABFC0682358CD13008D9BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 770E5D720BEF99C54E371E74 /* Pods-SN.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFF7D2S454;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FABFC05A2358CD13008D9BC5 /* Build configuration list for PBXProject "zsign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABFC0642358CD13008D9BC5 /* Debug */,
+				FABFC0652358CD13008D9BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABFC0662358CD13008D9BC5 /* Build configuration list for PBXNativeTarget "zsign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABFC0672358CD13008D9BC5 /* Debug */,
+				FABFC0682358CD13008D9BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FABFC0572358CD13008D9BC5 /* Project object */;
+}
