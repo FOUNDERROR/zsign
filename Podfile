@@ -8,7 +8,4 @@ target 'zsign' do
 
   # Pods for HelloWorld
   pod 'OpenSSL-Universal'
-  
-  
-  
 end
